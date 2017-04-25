@@ -15,6 +15,7 @@
 		630A0EAD1EAEF6FA00AD421C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630A0EAB1EAEF6FA00AD421C /* LaunchScreen.storyboard */; };
 		630A0EB81EAEF6FA00AD421C /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A0EB71EAEF6FA00AD421C /* DemoTests.m */; };
 		630A0EC31EAEF6FA00AD421C /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A0EC21EAEF6FA00AD421C /* DemoUITests.m */; };
+		630A0ED31EAEF75300AD421C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 630A0ED21EAEF75300AD421C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		630A0EBE1EAEF6FA00AD421C /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		630A0EC21EAEF6FA00AD421C /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		630A0EC41EAEF6FA00AD421C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630A0ED11EAEF75300AD421C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		630A0ED21EAEF75300AD421C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 		630A0ED01EAEF71200AD421C /* LZXPerson */ = {
 			isa = PBXGroup;
 			children = (
+				630A0ED11EAEF75300AD421C /* Person.h */,
+				630A0ED21EAEF75300AD421C /* Person.m */,
 			);
 			path = LZXPerson;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			files = (
 				630A0EA51EAEF6FA00AD421C /* ViewController.m in Sources */,
 				630A0EA21EAEF6FA00AD421C /* AppDelegate.m in Sources */,
+				630A0ED31EAEF75300AD421C /* Person.m in Sources */,
 				630A0E9F1EAEF6FA00AD421C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
